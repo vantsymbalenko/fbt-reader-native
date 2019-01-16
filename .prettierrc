@@ -1,0 +1,25 @@
+{
+    "semi": false,
+    "tabWidth": 4,
+    "useTabs": true,
+    "printWidth": 120,
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": "*.json",
+        "options": {
+          "printWidth": 240,
+          "useTabs": false,
+          "tabWidth": 2,
+          "trailingComma": "none",
+          "parser": "json"
+        }
+      },
+      {
+        "files": "package.json",
+        "options": {
+          "tabWidth": 2
+        }
+      }
+    ]
+}
