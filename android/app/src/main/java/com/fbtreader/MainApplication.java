@@ -3,6 +3,11 @@ package com.fbtreader;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.RNFetchBlob.RNFetchBlobPackage;
+import com.reactnativecommunity.webview.RNCWebViewPackage;
+import com.github.yamill.orientation.OrientationPackage;
+import com.rnziparchive.RNZipArchivePackage;
+import com.futurepress.staticserver.FPStaticServerPackage;
 import com.rnfs.RNFSPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
@@ -26,6 +31,11 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNFetchBlobPackage(),
+            new RNCWebViewPackage(),
+            new OrientationPackage(),
+            new RNZipArchivePackage(),
+            new FPStaticServerPackage(),
             new RNFSPackage(),
             new RNGestureHandlerPackage(),
             new VectorIconsPackage()

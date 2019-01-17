@@ -6,7 +6,7 @@ import { MainDrawerWrapper } from './components/Drawers/MainDrawerWrapper';
 export const AppNavigator = createDrawerNavigator(
     { ...screenMapping },
     {
-        initialRouteName: 'Home',
+        initialRouteName: 'Details_Not Basic_Super Not Basic',
         contentComponent: props => <MainDrawerWrapper {...props} />
     }
 );
