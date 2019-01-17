@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import MainDrawer, { MainDraweProps } from './MainDrawer';
+import MainDrawer, { MainDrawerProps } from './MainDrawer';
 import { DrawerHeader } from '../Headers/DrawerHeader';
 import { DrawerFooter } from '../Footers/DrawerFooter';
 
-export const MainDrawerWrapper = (props: MainDraweProps) => {
+export const MainDrawerWrapper = (props: MainDrawerProps) => {
   return (
     <View style={DrawerWrapperStyles.container}>
       <DrawerHeader />

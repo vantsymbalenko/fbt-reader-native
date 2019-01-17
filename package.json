@@ -16,6 +16,7 @@
     "react-native-vector-icons": "^6.1.0",
     "react-native-webview": "^3.1.2",
     "react-navigation": "^3.0.9",
+    "react-xml-parser": "^1.0.8",
     "rn-fetch-blob": "^0.10.15"
   },
   "devDependencies": {
